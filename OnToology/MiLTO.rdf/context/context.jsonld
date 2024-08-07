@@ -1,0 +1,433 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API_for_C++"
+    },
+    "TensorFlow_Quantum" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Quantum"
+    },
+    "Image_Classification" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Image_Classification"
+    },
+    "TFX-Addons" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TFX-Addons"
+    },
+    "Wrong_Layer" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Missing/Redundant/Wrong_Layer"
+    },
+    "TensorFlow_JVM" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_JVM"
+    },
+    "Wrong_Input" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input"
+    },
+    "Colab" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Colab"
+    },
+    "TensorFlow_Agents" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Agents"
+    },
+    "Tensorflow" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensorflow"
+    },
+    "Natural_Language_Processing" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Natural_Language_Processing"
+    },
+    "example" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/example"
+    },
+    "TensorFlow_Recommenders" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Recommenders"
+    },
+    "API_Directory" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API_Directory"
+    },
+    "Platform" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Platform"
+    },
+    "common_runtime" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/common_runtime"
+    },
+    "Documentation" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Documentation"
+    },
+    "Model_Card_Toolkit" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model_Card_Toolkit"
+    },
+    "What_If" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#What_If"
+    },
+    "Recommendation_systems" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Recommendation_systems"
+    },
+    "Preprocessing_of_Trainning_Data" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Preprocessing_of_Trainning_Data"
+    },
+    "Tool" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tool"
+    },
+    "tpu" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/tpu"
+    },
+    "Layers" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layers"
+    },
+    "Computation_Graph" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Computation_Graph"
+    },
+    "Trainning_Process" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning_Process"
+    },
+    "API_for_Java" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API_for_Java"
+    },
+    "Test" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Test"
+    },
+    "TensorFlow_Lite_Micro" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Lite_Micro"
+    },
+    "Ecosystem" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Ecosystem"
+    },
+    "_Propertes" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model_Type_&_Propertes"
+    },
+    "Tensorflow_Playground" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensorflow_Playground"
+    },
+    "graph" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/graph"
+    },
+    "Activation_Function" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Activation_Function"
+    },
+    "TensorFlow_Graphics" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Graphics"
+    },
+    "util" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/util"
+    },
+    "Tool_Directory" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tool_Directory"
+    },
+    "Kernel_Directory" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Kernel_Directory"
+    },
+    "TensorBoard" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorBoard"
+    },
+    "Version_Keras" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Version_Keras"
+    },
+    "Tensorflow.js_Models" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensorflow.js_Models"
+    },
+    "Runtime" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Runtime"
+    },
+    "Hyperparameters" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Hyperparameters"
+    },
+    "ops" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/ops"
+    },
+    "framework" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/framework"
+    },
+    "TensorFlow_Metadata" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Metadata"
+    },
+    "GPU_Usage" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#GPU_Usage"
+    },
+    "TPU_Research_Cloud" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TPU_Research_Cloud"
+    },
+    "API" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API"
+    },
+    "TensorFlow_IO" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_IO"
+    },
+    "Visual_Block" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Visual_Block"
+    },
+    "TensorFlow_Ranking" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Ranking"
+    },
+    "TensorFlow_Official_Datasets" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Official_Datasets"
+    },
+    "profile" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/profile"
+    },
+    "Layer_Properties" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Layer_Properties"
+    },
+    "TensorFlow_Addons" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Addons"
+    },
+    "distributed_runtime" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/distributed_runtime"
+    },
+    "java" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#java"
+    },
+    "Directory_API" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Directory_API"
+    },
+    "Google_Cloud_Public_Datasets" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Google_Cloud_Public_Datasets"
+    },
+    "TFX" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TFX"
+    },
+    "root" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#root"
+    },
+    "TensorFlow_Text" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Text"
+    },
+    "TensorFlow_Probability" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Probability"
+    },
+    "kernels" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/kernels"
+    },
+    "Keras" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Keras"
+    },
+    "XLA" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#XLA"
+    },
+    "Time_Series_Forecasting" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Time_Series_Forecasting"
+    },
+    "Sonnet" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Sonnet"
+    },
+    "TensorFlow_Compression" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Compression"
+    },
+    "pippackage" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#tools/pippackage"
+    },
+    "seq2seq" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#contrib/seq2seq"
+    },
+    "TensorFlow_Transform" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Transform"
+    },
+    "API_for_Python" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API_for_Python"
+    },
+    "TensorFlow_Serving" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Serving"
+    },
+    "Dataset_Tensorflow" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Dataset_Tensorflow"
+    },
+    "ML_Metadata" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#ML_Metadata"
+    },
+    "Components" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Components"
+    },
+    "Model" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model"
+    },
+    "TensorFlow_Lite_Support" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Lite_Support"
+    },
+    "Model_Optimization_Toolkit" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model_Optimization_Toolkit"
+    },
+    "Platform_Directory" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Platform_Directory"
+    },
+    "Library" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Library"
+    },
+    "Neural_Structured_Learning" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Neural_Structured_Learning"
+    },
+    "_Inputs" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tensors_&_Inputs"
+    },
+    "debug" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/debug"
+    },
+    "TensorFlow.js" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow.js"
+    },
+    "Optimizer" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Optimizer"
+    },
+    "Resources" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Resources"
+    },
+    "TensorFlow_Recommenders_Addons" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Recommenders_Addons"
+    },
+    "KerasNLP" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#KerasNLP"
+    },
+    "Kaggle_Model" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Kaggle_Model"
+    },
+    "Testing" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Validation/Testing"
+    },
+    "Contrib_Directory" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Contrib_Directory"
+    },
+    "Framework" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Framework"
+    },
+    "Dopamine" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Dopamine"
+    },
+    "Kaagle_Datasets" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Kaagle_Datasets"
+    },
+    "Wrong_Tensor_Shape" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Tensor_Shape"
+    },
+    "ML_Perf" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#ML_Perf"
+    },
+    "git" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#tools/git"
+    },
+    "grappler" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/grappler"
+    },
+    "Fairness_Indicators" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Fairness_Indicators"
+    },
+    "Loss_Function" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Loss_Function"
+    },
+    "_Extensions" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Libraries_&_Extensions"
+    },
+    "NdArray" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#NdArray"
+    },
+    "lib" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/lib"
+    },
+    "Trainning_Data" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning_Data"
+    },
+    "protobuf" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/protobuf"
+    },
+    "Wrong_Type_of_Input_Data" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Type_of_Input_Data"
+    },
+    "TensorFlow_Model_Remediation" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Model_Remediation"
+    },
+    "Tools" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Tools"
+    },
+    "TensorFlow_Federated" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Federated"
+    },
+    "TensorFlow_Privacy" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Privacy"
+    },
+    "TensorFlow_Model_Analysis" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Model_Analysis"
+    },
+    "API_for_C" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API_for_C"
+    },
+    "Contribution" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Contribution"
+    },
+    "Trainning" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Trainning"
+    },
+    "Model_Garden" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model_Garden"
+    },
+    "Wrong_Preprocessing" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Preprocessing"
+    },
+    "TensorFlow_Decision_Forests" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Decision_Forests"
+    },
+    "Version" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Version"
+    },
+    "API_Libraries" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#API_Libraries"
+    },
+    "Kernel" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Kernel"
+    },
+    "python" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#python"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Missing_Preprocessing" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Missing_Preprocessing"
+    },
+    "Recommender_System" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Recommender_System"
+    },
+    "examples" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#examples"
+    },
+    "TensorFlow_Lite_Model_Maker" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Lite_Model_Maker"
+    },
+    "Responsible_AI" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Responsible_AI"
+    },
+    "Wrong_Input_Format" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Input_Format"
+    },
+    "platform" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#core/platform"
+    },
+    "MLIR" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#MLIR"
+    },
+    "Wrong_Shape_of_Input" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Wrong_Shape_of_Input"
+    },
+    "Task" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Task"
+    },
+    "third-party" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#third-party"
+    },
+    "TensorFlow_Hub" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Hub"
+    },
+    "TensorFlow_Lattice" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Lattice"
+    },
+    "c" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#c"
+    },
+    "cc" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#cc"
+    },
+    "TensorFlow_GNN" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_GNN"
+    },
+    "Model_Tensorflow" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#Model_Tensorflow"
+    },
+    "TensorFlow_Data_Validation" : {
+      "@id" : "http://www.semanticweb.org/alelo/ontologies/2024/5/untitled-ontology-8#TensorFlow_Data_Validation"
+    }
+  }
+}
